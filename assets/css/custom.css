@@ -1,0 +1,31 @@
+/*==================================================================================
+    Custom Stylesheet (Any custom styling you want to apply should be defined here).
+====================================================================================*/
+
+.text-vary {
+    text-align: center;
+}
+@media (max-width: 992px){
+.text-vary {
+    text-align: justify;
+}
+}
+.just {
+    text-align: left;
+}
+@media (max-width: 992px){
+.just {
+    text-align: center;
+}
+}
+
+.just3 {
+    margin-top: 20px!important;
+    margin-left: 15%!important;
+}
+@media (max-width: 992px){
+.just3 {
+	    
+    margin-left:0%!important;
+}
+}
